@@ -1,19 +1,19 @@
-<% content_for :title do %>Anne Thompson<% end %>
-<% content_for :description do %>Anne Thompson's Website<% end %>
+<% content_for :title do %><%= t('home.title') %><% end %>
+<% content_for :description do %><%= t('home.description') %><% end %>
 <section>
   <img src="http://lorempixel.com/1170/600/cats/1">
 </section>
 <section>
   <div class="column">
-    <h2>Stay in touch.</h2>
+    <h2><%= t('home.in-touch') %></h2>
   </div>
   <div class="column">
     <div class="form-centered">
       <%= simple_form_for @visitor do |f| %>
         <%= f.error_notification %>
-        <%= f.input :email, label: false, :placeholder =>'Your email address...' %>
+        <%= f.input :email, label: false, :placeholder => t('home.form-email') %>
         <br/>
-        <%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
+        <%= f.button :submit, t('home.form-signup'), :class => "submit" %>
       <% end %>
     </div>
   </div>

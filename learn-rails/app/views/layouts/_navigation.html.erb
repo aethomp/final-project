@@ -1,12 +1,17 @@
 <%# navigation styled for Zurb Foundation 5 %>
 <nav class="top-bar" data-topbar>
   <ul class="title-area">
-    <li class="name"><%= link_to 'Home', root_path %></li>
-    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    <li class="name"><%= link_to t('home.nav'), root_path %></li>
+    <li class="toggle-topbar menu-icon"><a href="#"><%= t('home.nav-menu') %></a></li>
   </ul>
   <div class="top-bar-section">
     <ul>
       <%= render 'layouts/navigation_links' %>
+    </ul>
+  </div>
+  <div class="top-bar-langs">
+    <ul>
+      <%= render 'layouts/navigation_languages' %>
     </ul>
   </div>
 </nav>

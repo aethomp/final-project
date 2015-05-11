@@ -1,0 +1,22 @@
+fr:
+  home:
+    nav: "Accueil"
+    nav-menu: "Menu"
+    langs: "Lire en :"
+    title: "Anne Thompson"
+    description: "Site web de Anne Thompson"
+    in-touch: "Restez en contact."
+    form-email: "Votre adresse email..."
+    form-signup: "S'inscrire au bulletin"
+    visitor-notice: ! "L'adresse %{visitor_email} est inscrite au bulletin."
+  about:
+    title: "À propos"
+    header: "À propos de Anne Thompson"
+    body: "Anne est une candidate de deuxième année pour le master en traduction et gestion de projets de localisation au Middlebury Institute of International Studies. Elle a perpétuellement froid et s'avoue un peu trop passionnée par le steelpan et le nahuatl classique."
+  contact:  
+    title: "Contact"
+    contact-name: "Nom"
+    contact-email: "Adresse email"
+    contact-content: "Contenu"
+    contact-submit: "Envoyer"
+    contact-notice: ! 'Message envoyé de la part de %{contact_name}.'

@@ -9,7 +9,8 @@ class ContactsController < ApplicationController
     if @contact.valid?
       #@contact.update_spreadsheet
       UserMailer.contact_email(@contact).deliver
-      flash[:notice] = "Message sent from #{@contact.name}."
+      #flash[:notice] = "Message sent from #{@contact.name}."
+      flash[:notice] = t('contact.contact-notice', contact_name: @contact.name)
       redirect_to root_path
     else
       render :new

@@ -36,6 +36,14 @@
   @extend .button;
   @extend .radius;
   }
+.top-bar-langs a {
+  float: right;
+  font-size: rem-calc(13);
+  line-height: 45px;
+  font-weight: normal;
+  color: white;
+  padding: 0 15px;
+}
 // apply styles to HTML elements
 // to make views framework-neutral
 main {

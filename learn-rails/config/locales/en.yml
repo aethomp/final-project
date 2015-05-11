@@ -20,4 +20,24 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  home:
+    nav: "Home"
+    nav-menu: "Menu"
+    langs: "Read in:"
+    title: "Anne Thompson"
+    description: "Anne Thompson's Website"
+    in-touch: "Stay in touch."
+    form-email: "Your email address..."
+    form-signup: "Sign up for the newsletter"
+    visitor-notice: ! 'Signed up %{visitor_email}.'
+  about:
+    title: "About"
+    header: "About Anne Thompson"
+    body: "Anne is a second-year MA student in the Translation and Localization Management program at the Middlebury Institute of International Studies. She is perpetually freezing and gets embarrassingly excited about steel pan and Classical Nahuatl."
+  contact:  
+    title: "Contact"
+    contact-name: "Name"
+    contact-email: "Email"
+    contact-content: "Content"
+    contact-submit: "Submit"
+    contact-notice: ! 'Message sent from %{contact_name}.'
