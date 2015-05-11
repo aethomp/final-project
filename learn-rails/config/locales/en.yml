@@ -41,3 +41,20 @@ en:
     contact-content: "Content"
     contact-submit: "Submit"
     contact-notice: ! 'Message sent from %{contact_name}.'
+  activemodel:
+    errors:
+      models:
+        visitor:
+          attributes:
+            email:
+              invalid: "Invalid"
+              blank: "This field may not be left blank"
+        contact:
+          attributes:
+            email:
+              invalid: "Invalid"
+              blank: "This field may not be left blank"
+            name:
+              blank: "This field may not be left blank"
+            content:
+              blank: "This field may not be left blank"

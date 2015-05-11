@@ -3,7 +3,7 @@
 <div class="form">
   <%= simple_form_for @contact do |form| %>
     <%= form.error_notification %>
-    <%= form.input :name, label: t('contact.contact-name'), autofocus: true %>
+	<%= form.input :name, label: t('contact.contact-name'), autofocus: true %>
     <%= form.input :email, label: t('contact.contact-email') %>
     <%= form.input :content, label: t('contact.contact-content'), as: :text %>
     <%= form.button :submit, t('contact.contact-submit'), class: 'submit' %>

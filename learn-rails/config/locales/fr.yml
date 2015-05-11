@@ -20,3 +20,20 @@ fr:
     contact-content: "Contenu"
     contact-submit: "Envoyer"
     contact-notice: ! 'Message envoyé de la part de %{contact_name}.'
+  activemodel:
+    errors:
+      models:
+        visitor:
+          attributes:
+            email:
+              invalid: "Non valable"
+              blank: "Ce champ ne peut pas être vide"
+        contact:
+          attributes:
+            email:
+              invalid: "Non valable"
+              blank: "Ce champ ne peut pas être vide"
+            name:
+              blank: "Ce champ ne peut pas être vide"
+            content:
+              blank: "Ce champ ne peut pas être vide"
