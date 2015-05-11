@@ -2,7 +2,6 @@ fr:
   home:
     nav: "Accueil"
     nav-menu: "Menu"
-    langs: "Lire en :"
     title: "Anne Thompson"
     description: "Site web de Anne Thompson"
     in-touch: "Restez en contact."
@@ -19,19 +18,19 @@ fr:
     contact-email: "Adresse email"
     contact-content: "Contenu"
     contact-submit: "Envoyer"
-    contact-notice: ! 'Message envoyé de la part de %{contact_name}.'
+    contact-notice: ! "Message envoyé de la part de %{contact_name}."
   activemodel:
     errors:
       models:
         visitor:
           attributes:
             email:
-              invalid: "Non valable"
+              invalid: "Adresse non valable"
               blank: "Ce champ ne peut pas être vide"
         contact:
           attributes:
             email:
-              invalid: "Non valable"
+              invalid: "Adresse non valable"
               blank: "Ce champ ne peut pas être vide"
             name:
               blank: "Ce champ ne peut pas être vide"

@@ -23,13 +23,12 @@ en:
   home:
     nav: "Home"
     nav-menu: "Menu"
-    langs: "Read in:"
     title: "Anne Thompson"
     description: "Anne Thompson's Website"
     in-touch: "Stay in touch."
     form-email: "Your email address..."
     form-signup: "Sign up for the newsletter"
-    visitor-notice: ! 'Signed up %{visitor_email}.'
+    visitor-notice: ! "Signed up %{visitor_email}."
   about:
     title: "About"
     header: "About Anne Thompson"
@@ -40,19 +39,19 @@ en:
     contact-email: "Email"
     contact-content: "Content"
     contact-submit: "Submit"
-    contact-notice: ! 'Message sent from %{contact_name}.'
+    contact-notice: ! "Message sent from %{contact_name}."
   activemodel:
     errors:
       models:
         visitor:
           attributes:
             email:
-              invalid: "Invalid"
+              invalid: "Invalid address"
               blank: "This field may not be left blank"
         contact:
           attributes:
             email:
-              invalid: "Invalid"
+              invalid: "Invalid address"
               blank: "This field may not be left blank"
             name:
               blank: "This field may not be left blank"
